@@ -156,3 +156,24 @@ h1{
         width: 98%;
     }
 }
+@media only screen and (max-width: 500px) {
+    .right h1{
+        font-size: 3rem;
+    }
+   .right ul{
+       width: 99%;
+   }
+   .right p{
+       width: 99%;
+       
+   }
+   .code{
+       width: 99%;
+       font-size:1.5rem ;
+
+   }
+   .btns{
+       width: 98%;
+   }
+
+}
