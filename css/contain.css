@@ -147,6 +147,10 @@ h1{
         width: 98%;
         
     }
+    .right img{
+        margin: 1rem;
+        max-width: 100%;
+   }
     .code{
         width: 98%;
         font-size:1.5rem ;
@@ -160,15 +164,24 @@ h1{
     .right h1{
         font-size: 3rem;
     }
+    .right h2{
+        padding: 6rem 1rem 1rem 1rem;
+        font-size: 2rem;
+    }
+    .right h3{
+        font-size: 1.9rem;
+
+    }
    .right ul{
-       width: 99%;
+       width: 100%;
    }
    .right p{
-       width: 99%;
+       width: 100%;
+       padding: .8rem;
        
    }
    .code{
-       width: 99%;
+       width: 100%;
        font-size:1.5rem ;
 
    }
