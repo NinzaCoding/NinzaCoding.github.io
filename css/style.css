@@ -155,6 +155,9 @@
     .html-right{
         display:none;
       }
+      .html-left h1{
+        font-size: 6rem;
     
+    }
 }
      
