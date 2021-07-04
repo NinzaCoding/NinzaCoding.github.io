@@ -58,10 +58,5 @@ header{
     }
   
 }
-@media only screen and (max-width: 500px) {
-    .sec-navbar ul li:nth-child(5){
-        display: none;
-    }
-  
-}
+
 
