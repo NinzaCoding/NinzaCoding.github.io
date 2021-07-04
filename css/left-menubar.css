@@ -8,7 +8,7 @@
 }
 
 .left {
-    top: 12.5rem;
+    top: 20vh;
     position:fixed;
     width:20%;
     background: #dbe1e4;
@@ -88,11 +88,4 @@
     }
     
    
-}
-@media only screen and (max-width: 624px) {
-    .left{
-
-        top: 14.2rem;
-    }
-
 }
