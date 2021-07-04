@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3school- tutorials for web developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main-navbar.css">
+    <link rel="stylesheet" href="css/sec-navbar.css">
+    <link rel="stylesheet" href="css/left-menubar.css">
+    <link rel="stylesheet" href="css/contain.css">
+
+</head>
+
+<body>
+      <!-- main nav bar -->
+    <header>
+        <nav>
+            <div class="left-nebver">
+                <div class="nebar">
+                    <div class="logo">D3S</div>
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                        <i id="btn">Menu</i>
+                        <i class='fas fa-times' id="cancel"></i>
+                    </label>
+                <ul class="manu-1">
+                    <li><a href="index.html" >Tutorials</a></li>
+                    <li>Refernces</li>
+                    <li>Exercies</li>
+                </ul>                  
+            </div>
+            
+        </div>
+        <div class="right-nebver">
+            <div class="paid btn">Paid coures</div>
+            <div class="login btn">Log in</div>
+        </div>
+    </nav>
+    
+</header>
+ <!-- secend nav bar -->
+ <div class="sec-navbar" id="sidebar_left">
+    <ul>
+        <li id="icon" ><i class='fas fa-bars'></i></li>
+        <li><a href="index.html"><i class='fas fa-home'></i></a></li>
+        <li style="background:rgba(20, 150, 70, 0.781);"><a href="html-tourials.html">HTML</a></li>
+        <li ><a href="css-tutorial.html">CSS</a></li>
+        <li ><a href="javascript-tutorial.html">JAVASCRIPT</a></li>
+        <li>SOL</li>
+        <li>PYTHON</li>
+        <li>BOOTSTRAP</li>
+        <li>JAVA</li>
+    </ul>
+ </div>
+  <!-- ******************************container****************************** -->
+  <div class="container">
+       <!-- left nav bar -->
+       <div class="left">
+            <ul class="left-nevbar">
+                <li class="left-heading">HTML Tutorial</li>
+                <li class="left-body"><a href="#intro">HTML Introduction</a></li>
+                <li class="left-body"><a href="#editor">HTML Editors</a></li>
+                <li class="left-body"><a href="#">HTML Basic</a></li>
+                <li class="left-body"><a href="#element">HTML Elements</a></li>
+                <li class="left-body"><a href="#heading">HTML Headings</a></li>
+                <li class="left-body"><a href="#paragraph">HTML Paragraphs</a></li>
+                <li class="left-body"><a href="#styles">HTML Styles</a></li>
+                <li class="left-body"><a href="#color">HTML Colors</a></li>
+                <li class="left-body"><a href="#html_css">HTML CSS</a></li>
+                <li class="left-body"><a href="#class_Attribute">HTML Class</a></li>
+                <li class="left-body"><a href="#id_Attribute">HTML Id</a></li>
+                <li class="left-body"><a href="#formatting">HTML Formatting</a></li>
+                <li class="left-body"><a href="#Quoation">HTML Quoations</a></li>
+                <li class="left-body"><a href="#Comment">HTML Comments</a></li>
+                <li class="left-heading">HTML Forms</li>
+                <li class="left-body"><a href="#form">HTML Form</a></li>
+                <li class="left-body"><a href="#form">HTML Form Attributes</a></li>
+                <li class="left-body"><a href="#form_element">HTML Form Elements</a></li>
+                <li class="left-body"><a href="#form_type">HTML Input Types</a></li>               
+                <li class="left-heading">HTML Examples</li>
+                <li class="left-body"><a href="#">HTML Examples</a></li>
+                <li class="left-body"><a href="#">HTML Quiz</a></li>
+                <li class="left-body"><a href="#">HTML Exerises</a></li>
+                <li class="left-body"><a href="#">HTML Certificate</a></li>
+                <li class="left-body"><a href="#">HTML Summary</a></li>
+                <li class="left-body"><a href="#">HTML Accessibility</a></li>
+            </ul>
+        </div>
+        <!-- right container  -->
+        <div class="right">
+            <h1>HTML Tutorial</h1>
+            <div class="code">
+                HTML is the standard markup language for Web pages.
+                <br /><br />
+                With HTML you can create your own Website.
+                <br /><br />
+                HTML is easy to learn - You will enjoy it!
+            </div>
+            <h2 id="intro">Introduction</h2>
+            <h3>What is HTML?</h3>
+            <ul>
+                <li>HTML stands for Hyper Text Markup Language</li>
+                <li>HTML is the standard markup language for creating Web pages</li>
+                <li>HTML describes the structure of a Web page</li>
+                <li>HTML consists of a series of elements</li>
+                <li>HTML elements tell the browser how to display the content</li>
+                <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+            </ul>
+           <img src="img/html-1.PNG" alt="" class="img">
+           <h2 id="editor">HTML Editors</h2>
+           <h3>W3Schools Online Editor - "Try it Yourself"</h3>
+           <p>With our free online editor, you can edit the HTML code and view the result in your browser.</p>
+           <p>It is the perfect tool when you want to test code fast. It also has color coding and the ability to save and share code with others:</p>
+           <h2>HTML Basic Examples</h2>
+            <p>All HTML documents must start with a document type declaration: <sapn style="color:blue">&lt;</sapn><span style="color: brown;">!DOCTYPE</span> <span style="color:red">html</span><sapn style="color:blue">&gt;</sapn></p>
+            <p>The HTML document itself begins with<sapn style="color:blue">&lt;</sapn><span style="color:red">html</span><sapn style="color:blue">&gt;</sapn>and ends with<sapn style="color:blue">&lt;</sapn><span style="color:red">html</span><sapn style="color:blue">&gt;</sapn>
+            </p>
+            <p>The visible part of the HTML document is between<sapn style="color:blue">&lt;</sapn><span style="color:red">body</span><sapn style="color:blue">&gt;</sapn> and <sapn style="color:blue">&lt;</sapn><span style="color:red">body</span><sapn style="color:blue">&gt;</sapn></p>
+           <h3>How to View HTML Source?</h3>
+           <p>Have you ever seen a Web page and wondered "Hey! How did they do that?"</p>
+           <h3>View HTML Source Code:</h3>
+           <p>Right-click in an HTML page and select "View Page Source" (in Chrome) or "View Source" (in Edge), or similar in other browsers. This will open a window containing the HTML source code of the page.</p>
+           <h3>Inspect an HTML Element:</h3>
+           <p>Right-click on an element (or a blank area), and choose "Inspect" or "Inspect Element" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.</p>
+    
+           <h2 id="element">HTML Elements</h2>
+           <div class="code">
+               <code style="line-height: 3rem;"><b>Note:</b> Some HTML elements have no content (like the element). These elements are called empty elements. Empty elements do not have an end tag!</code>
+           </div>
+           <p>The &ltbody&gt element defines the document's body.</p>
+           <p>It has a start tag &ltbody&gt and an end tag &lt/body&gt.</p>
+           <p>Then, inside the &ltbody&gt element there are two other elements: &lth1&gt and &ltp&gt:</p>
+           <div class="code">
+                &lth1&gtMy First Heading &lt/h1&gt<br/><br />
+                &ltp&gtMy first paragraph.&lt/p1&gt
+           </div>
+           <h2 id="heading">html heading</h2>
+           <div class="code defult_heading">
+            <h1 style="font-size:3.2rem; color:black; padding: 2rem 0 2rem .5rem; font-weight: bold;">Heading 1</h1>
+            <h2 style="font-size:2.4rem; color:black; padding: .5rem; font-weight: bold">Heading 2</h2>
+            <h3 style="font-size:1.872rem; color:black; padding: .5rem; font-weight: bold">Heading 3</h3>
+            <h4 style="font-size:1.6rem; color:black; padding: .5rem;">Heading 4</h4>
+            <h5 style="font-size:1.328rem; color:black; padding: .5rem;">Heading 5</h5>
+            <h6 style="font-size:1.2rem; color:black; padding: .5rem;">Heading 6</h6>
+           </div>
+           <h3>Headings Are Important</h3>
+           <p>Search engines use the headings to index the structure and content of your web pages.</p>
+           <p>Users often skim a page by its headings. It is important to use headings to show the document structure.</p>
+           <p><span style="color: rgb(252, 22, 110);">&lth1&gt</span> headings should be used for main headings, followed by <span style="color: rgb(252, 22, 110);">&lth2&gt</span> headings, then the less important <span style="color: rgb(252, 22, 110);">&lth3&gt</span>, and so on.</p>
+            <p><b>Note:</b> Use HTML headings for headings only. Don't use headings to make text <b>BIG or bold</b>.</p>
+            <h2 id="paragraph">HTML Paragraphs</h2>
+            <p>A paragraph always starts on a new line, and is usually a block of text.</p>
+            <hr />
+
+            <h3>HTML Paragraphs</h3>
+            <p>The HTML <span style="color:rgb(252, 22, 110); ;">&ltp&gt</span> element defines a paragraph.</p>
+            <p>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</p>
+            <div class="code">
+                <p><span style="color:rgb(252, 22, 110); ;">&ltp&gt</span>This is a paragraph.<span style="color:rgb(252, 22, 110); ;">&lt/p&gt</span></p>
+                <p><span style="color:rgb(252, 22, 110); ;">&ltp&gt</span>This is another paragraph.<span style="color:rgb(252, 22, 110); ;">&lt/p&gt</span></p>
+            </div>
+           <h2 id="styles">HTML Styles</h2>
+           <p>The HTML style attribute is used to add styles to an element, such as color, font, size, and more.</p>
+           <div class="code">
+            <code style="line-height: 3rem;">
+            <sapn style="padding-left:-2rem; font-weight: 600; font-size:3rem;">Example</sapn><br />
+            <span style="color: red;">I am Red</span><br />
+            <sapn style="color:blue;" >I am Blue</span><br />
+            <sapn style="font-size: 3rem;">I am Big</span>
+            </code>
+        </div>
+        <h2 id="color">HTML Colors</h2>
+        <p>HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.</p>
+        <hr style="width:84%;"/>
+        <h3>Color Names</h3>
+        <p>In HTML, a color can be specified by using a color name:</p>
+        <img src="img/color.PNG" alt="">
+        <h3>Background Color</h3>
+        <p>You can set the background color for HTML elements:</p>
+        <p style="text-align: center; color:white; background-color:rgb(76, 76, 250); margin: 2rem;">Hello World</p>
+        <p style=" color:white;background-color: tomato; margin-left: 2rem;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        <h2>Text Color</h2>
+        <p>You can set the color of text:</p>
+        <p style="color:Tomato;">Hello World</p>
+    <p style="color:DodgerBlue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+    <h2 id="html_css">HTML Styles - CSS</h2>
+    <p>CSS stands for Cascading Style Sheets.</p>
+    <p>CSS saves a lot of work. It can control the layout of multiple web pages all at once.</p>
+    <img src="img/html-2.PNG" alt="">
+    <h3>What is CSS?</h3>
+    
+    <p>Cascading Style Sheets (CSS) is used to format the layout of a webpage.</p>
+    <p>With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!</p>
+    <div class="code" style="background-color:rgb(248, 216, 175);">
+        <p style="padding:.1rem; line-height:3rem; width:100%;"><b>Tip:</b> The word <b>cascading</b> means that a style applied to a parent element will also apply to all children elements within the parent. So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color (unless you specify something else)!</p>
+    </div>
+        <h3>Using CSS</h3>
+        <p>CSS can be added to HTML documents in 3 ways:</p>
+        <ul>
+            <li>Inline - by using the style attribute inside HTML elements</li>
+            <li>Internal - by using a <span style="color: crimson;">&ltstyle&gt</span> element in the <span style="color: crimson;">&lthead&gt</span> section</li>
+            <li>External - by using a <span style="color: crimson;">&ltlink&gt</span> element to link to an external CSS file</li>
+    
+        </ul>
+        <p>The most common way to add CSS, is to keep the styles in external CSS files. However, in this tutorial we will use inline and internal styles, because this is easier to demonstrate, and easier for you to try it yourself.</p>
+        <h2 id="class_Attribute">HTML class Attribute</h2>
+        <p>The HTML <span style="color: crimson;">class</span> attribute is used to specify a class for an HTML element.</p>
+        <p>Multiple HTML elements can share the same class.</p>
+        <h3>Using The class Attribute</h3>
+        <p>The <span style="color: crimson;">class</span> attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.</p>
+        <p>In the following example we have three <span style="color: crimson;">&ltdiv&gt</span> elements with a <span style="color: crimson;">class</span> attribute with the value of "city". All of the three <span style="color: crimson;">&ltdiv&gt</span> elements will be styled equally according to the <span style="color: crimson;">.city</span> style definition in the head section:</p>
+        <div class="code" style="background-color: rgb(248, 216, 175);">
+            <p style="padding:.1rem; line-height:3rem; width:100%;"><b>Tip:</b> The <span style="color: crimson;">class</span> attribute can be used on <b>any</b> HTML element.</p>
+            <p style="padding:.1rem; line-height:3rem; width:100%;"><b>Note:</b> The class name is case sensitive!</p>
+            <p style="padding:.1rem; line-height:3rem; width:100%;"><b>Tip:</b>  You can learn much more about CSS in our <a href="https://www.w3schools.com/css/default.asp" style="color: blue; font-weight: bold;">CSS Tutorial.</a></p>
+        </div>
+            <h2 id="id_Attribute">HTML id Attribute</h2>
+            <p>The HTML <span style="color: crimson;">id</span> attribute is used to specify a unique id for an HTML element.</p>
+            <p>ou cannot have more than one element with the same id in an HTML document.</p>
+            
+            <h3>Using The id Attribute</h3>
+            <p>The <span style="color: crimson;">id</span> attribute specifies a unique id for an HTML element. The value of the <span style="color: crimson;">id</span> attribute must be unique within the HTML document.</p>
+            <p>The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.</p>
+            <p>The syntax for <span style="color: crimson;">id</span> is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.</p>
+            <p>In the following example we have an <span style="color: crimson;">&lth1&gt</span> element that points to the id name "myHeader". This <span style="color: crimson;">&lth1&gt</span> element will be styled according to the <span style="color: crimson;">#myHeader</span> style definition in the head section:</p>
+            <h2 id="formatting">HTML Text Formatting</h2>
+            <p>HTML contains several elements for defining text with a special meaning.</p>
+            <hr />
+            <h3>HTML Formatting Elements</h3>
+            <p>Formatting elements were designed to display special types of text:</p>
+            <ul>
+                <li><span style="color: crimson;">&ltb&gt</span>-Bold text</li>
+                <li><span style="color: crimson;">&ltstrong&gt</span>-Important text</li>
+                <li><span style="color: crimson;">&lti&gt</span>-Italic text</li>
+                <li><span style="color: crimson;">&ltem&gt</span>-Emphasized text</li>
+                <li><span style="color: crimson;">&ltmark&gt</span>-Marked text</li>
+                <li><span style="color: crimson;">&ltsmall&gt</span>-Smaller text</li>
+                <li><span style="color: crimson;">&ltdel&gt</span>-Deleted text</li>
+                <li><span style="color: crimson;">&ltins&gt</span>-Inserted text</li>
+                <li><span style="color: crimson;">&ltsub&gt</span>-Subscript text</li>
+                <li><span style="color: crimson;">&ltsup&gt</span>-Superscript text</li>
+            </ul>
+            <h2 id="Quoation">HTML Quotation</h2>
+            <p>In this chapter we will go through the <span style="color: crimson;">&ltq&gt</span>, <span style="color: crimson;">&ltaddress&gt</span> HTML elements.</p>
+            <h3>HTML <span style="color: crimson;">&ltq&gt</span> for Short Quotations</h3>
+            <p>The HTML <span style="color: crimson;">&ltq&gt</span> tag defines a short quotation.</p>
+            <p>Browsers normally insert quotation marks around the quotation.</p>
+            <h3>HTML &ltaddress&gt for Contact Information</h3>
+            <p>The HTML <span style="color: crimson;">&ltaddress&gt</span> tag defines the contact information for the author/owner of a document or an article.</p>
+                <p>The contact information can be an email address, URL, physical address, phone number, social media handle, etc.</p>
+                <p>The text in the <span style="color: crimson;">&ltaddress&gt</span> element usually renders in italic, and browsers will always add a line break before and after the <span style="color: crimson;">&ltaddress&gt</span> element.</P>
+                    <h2 id="Comment">HTML Comments</h2>
+                    <p>HTML comments are not displayed in the browser, but they can help document your HTML source code.</p>
+                    <hr />
+                    <h3>HTML Comment Tags</h3>
+                    <p>You can add comments to your HTML source by using the following syntax:</p>
+                    <p>With comments you can place notifications and reminders in your HTML code:</p>
+                    <div class="box-modal">
+                        <span style="color: rgb(37, 99, 37);">&lt!-- This is a comment --&gt</span><br /><br />
+                        &ltp&gtThis is a paragraph.&lt/p&gt<br /><br />
+                        <span style="color:rgb(37, 99, 37);">&lt!-- Remember to add more information here --&gt</span>
+                     </div>
+                     <h2 id="form">HTML Forms</h2>
+                     <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
+                     <hr />
+                     <img src="img/form.PNG" alt="">
+                     <h3>The &ltform&gt Element</h3>
+                     <p>The HTML <span style="color: crimson;">&ltform&gt</span> element is used to create an HTML form for user input:</p>
+                     <div class="box-modal">
+                        <span style="color: crimson;">&ltform&gt</span><br />
+                        .<br /><br />
+                        form elements<br />
+                        .<br />
+                        <span style="color: crimson;">&lt/form&gt</span>
+                    </div>
+                    <p>The <span style="color: crimson;">&ltform&gt</span> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.</p>
+                    <h3 id="form_element">The &ltinput&gt Element</h3>
+                    <p>The HTML <span style="color: crimson;">&ltinput&gt</span> element is the most used form element.</p>
+                    <p>An <span style="color: crimson;">&ltinput&gt</span> element can be displayed in many ways, depending on the type attribute.</p>
+                    <p>Here are some examples:</p>
+                    <h3 id="form_type">HTML Input Types</h3>
+                    <img src="img/table.PNG"  alt="">
+            <div class="btns">
+                <div class="btn1 btn">&ltPrevious</div>
+                <div class="btn2 btn">Next&gt</div>
+            </div>
+            <div class="footer">
+                <h3><a href="https://www.w3schools.com/colors/colors_picker.asp">COLOR PICKER</a></h3>
+                <img src="img/color-picar.gif"  alt="">
+                <hr style="margin: 1rem ;">
+                <p>W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using W3Schools, you agree to have read and accepted our terms of use, cookie and privacy policy.</p>
+                <p>Copyright 1999-2021 by Refsnes Data. All Rights Reserved.</p>
+                <div class="logo">  <a href="index.html">D3S</a></div>
+    
+            </div>
+    </div>
+  </div>
+  <!-- ******************************script****************************** -->
+  <script>
+      $(document).ready(function(){
+
+            $('#icon').click(function(){
+                $('.left').toggleClass('show');
+            });
+      });
+  </script>
+
+
+</body>
+
+</html>
