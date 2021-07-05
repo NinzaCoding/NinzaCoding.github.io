@@ -1,4 +1,4 @@
-#icon{
+ #icon{
     display: none;
     font-size: 3rem;
 }
@@ -16,6 +16,7 @@
     height: 80vh;
     padding-bottom: 10rem;
 }
+
 .left ul a {
 
     display: black;
@@ -36,11 +37,14 @@
     padding-bottom: 1rem;
     padding-right: 5rem;
 
+
 }
+
 .left-body:hover{
     background-color: rgba(20, 150, 70, 0.781);
     color: rgb(255, 255, 255);
 }
+
 .left-body:hover a{
     
     color: rgb(255, 255, 255);
@@ -53,14 +57,13 @@
 
 .right {
     width:80%;
-    z-index: -100;
     margin-left: 27.5rem;
     margin-top: 1rem;
-}
+} 
 
 
 /* ***********************media quires************** */
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
     .left {
         width:25%;
     }
@@ -88,4 +91,4 @@
     }
     
    
-}
+} */

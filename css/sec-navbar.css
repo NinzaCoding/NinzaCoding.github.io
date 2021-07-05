@@ -31,38 +31,20 @@ header{
 }
 /* ***********************media quires************** */
 
-@media only screen and (max-width: 900px) {
-    .sec-navbar ul li:nth-child(9){
-        display: none;
-    }
-  
-}
+
 @media only screen and (max-width: 800px) {
-    .sec-navbar ul li:nth-child(8){
-        display: none;
-    }
-    .sec-navbar ul{
+       .sec-navbar ul{
         padding-left: 1rem;
     }
   
 }
-@media only screen and (max-width: 700px) {
-    .sec-navbar ul li:nth-child(7){
-        display: none;
-    }
-  
-}
-@media only screen and (max-width: 600px) {
-    .sec-navbar ul li:nth-child(6){
-        display: none;
-    }
-  
-}
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 300px) {
     .sec-navbar ul li:nth-child(5){
         display: none;
     }
   
 }
+
 
 

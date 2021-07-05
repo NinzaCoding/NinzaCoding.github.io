@@ -1,0 +1,120 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top:12rem;
+    font-weight: 500;
+    
+}
+.container h1{
+    padding-bottom: 2vw;
+   font-size: 5rem;
+   font-weight: 400;
+}
+.container p{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+   
+}
+.container table{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5%;
+   font-size: 2rem;
+}
+.container table tr:first-child{
+    /* width: 40%; */
+    color: rgb(46, 45, 45);
+    font-weight: bold;
+}
+.container table tr :nth-child(2){
+    font-weight: 500;
+    color: rgba(20, 150, 70, 0.781);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container table ,.container th , .container td{
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding:1.2vw;
+}
+
+.container tr:nth-child(2n+1){
+    background: rgb(235, 229, 229);
+}
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 1rem 1rem 1rem;
+    }
+.btns .btn{
+    padding: 2rem 3rem;
+    background: rgb(15, 104, 15);
+    border-radius: .5rem;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    font-weight: 400;
+}
+.btns .btn:hover{
+    background: rgb(59, 146, 32);
+}
+.footer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
+.footer img{
+   margin: 0 auto;
+    max-width: 100%;
+    width: 20rem;
+}
+.footer h3{
+    text-align: center;
+}
+.container a{
+    color: rgb(255, 255, 255);
+}
+.footer p{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+.footer .logo{
+    width: 100%;
+    text-align: center;
+}
+.footer .logo a:hover{
+    color: red;
+}
+.footer a{
+    color: black;
+    padding: 1rem;
+}
+.footer a:hover{
+    color: blue;
+}
+@media only screen and(max-width:600px){
+    .container table{
+        width: 95%;}
+        .container h1{font-size: 3rem;}
+
+}
+
+@media only screen and (max-width: 550px) {
+    .sec-navbar ul li:nth-child(4){
+        display: none;
+    }
+    .container h1{font-size: 2.5rem;}
+    .container p{font-size: 1.5rem;}
+  
+}

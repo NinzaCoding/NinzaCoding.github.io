@@ -1,41 +1,57 @@
 .right{
-    padding: 2rem 4rem;
+    padding: 3rem 2rem;
     font-size: 2rem;
-
-}
+    font-family: 'Poppins', sans-serif;
+ }
 .right h1{
     font-size: 6rem;
     letter-spacing: .1rem;
     font-weight: 600;
     padding-top: 4rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 
 }
 .code{
     width: 95%;
     height: auto;
-    background: rgb(194, 231, 194);
+    background: rgb(10, 124, 10);
     padding:2rem 2rem 2rem 3rem;
     border-radius: 1rem;
     font-size: 1.8rem;
     line-height: 2rem;
     padding-left: 6rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 .right h2{
-    font-size: 4rem;
+    font-size: 5rem;
+    letter-spacing: .2rem;
+    font-weight: 600;
+    padding-top:10rem;
+    color: rgb(10,124, 10);
+}
+.right h3{
+    font-size: 3rem;
     letter-spacing: .1rem;
     font-weight: 600;
-    padding:6rem  1rem 2rem 1rem ;
-    color: rgb(30, 100, 9);
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 
 }
 .right p{
-    width: 85%;
-    text-align: justify;
-    padding:1.5rem 1rem;
+    width: 95%;
+    font-weight: 900;
+    padding:1rem 1rem;
     font-weight: 400;
+}
+.right .span-color{
+    color: rgb(9, 19, 158);
+    font-weight: bold;
+}
+.tag-color{
+    color: rgb(16, 84, 129);
+    font-weight: bold;
+
 }
 .comments{
     color: rgb(90, 139, 141);
@@ -44,14 +60,12 @@
 .right ul{
     width: 85%;
     display: block;
-    padding-left: 3rem;
+    padding-left: 10rem;
 }
 .right ul.esc-ul{
     padding-left: 4rem;
 }
-.right .esc-ul li{
-    font-weight: 400;
-}
+
 .right ul li{
     line-height: 2.5rem;
     font-size: 1.8rem;
@@ -61,16 +75,11 @@
     text-align: justify;
     padding: .5rem;
 }
-.right h3{
-    padding: 2rem;
-    font-size: 3rem;
-    font-weight: 600;
-    color: rgb(2, 24, 49);
 
-}
 .right img{
-     margin: 2rem;
      max-width: 100%;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
 }
 .btns{
     width: 85%;
@@ -88,16 +97,23 @@
     width: 85%;
     padding: 2rem;
 }
+.btns{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 1rem 1rem 1rem;
+    }
 .btns .btn{
-    padding: 1rem 2rem;
+    padding: 2rem 3rem;
     background: rgb(15, 104, 15);
     border-radius: .5rem;
-    color: white;
+    font-size: 2rem;
     letter-spacing: .1rem;
     font-weight: 400;
+    cursor: pointer;
 }
 .btns .btn:hover{
-    background: rgb(69, 184, 35);
+    background: rgb(59, 146, 32);
 }
 .footer{
     width:100%;
@@ -138,7 +154,13 @@
 
 @media only screen and (max-width: 900px) {
     .right h1{
-         font-size: 4rem;
+         font-size: 4.6rem;
+     }
+    .right h2{
+         font-size: 3.6rem;
+     }
+    .right h3{
+         font-size: 2.8rem;
      }
     .right ul{
         width: 98%;
@@ -154,5 +176,20 @@
     }
     .btns{
         width: 98%;
+    }
+    .right ul{
+        
+        padding-left: 2rem;
+    }
+}
+@media only screen and(max-width:600px){
+    .right h1{
+        font-size: 3.2rem;
+    }
+    .right h2{
+        font-size: 2.5rem;
+    }
+   .right h3{
+        font-size: 2rem;
     }
 }
