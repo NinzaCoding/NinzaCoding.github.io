@@ -12,7 +12,7 @@
 
 }
 .code{
-    width: 95%;
+    width: 90%;
     height: auto;
     background: rgb(10, 124, 10);
     padding:2rem 2rem 2rem 3rem;
@@ -65,7 +65,9 @@
 .right ul.esc-ul{
     padding-left: 4rem;
 }
-
+.right hr{
+    width: 85%;
+}
 .right ul li{
     line-height: 2.5rem;
     font-size: 1.8rem;
@@ -163,19 +165,19 @@
          font-size: 2.8rem;
      }
     .right ul{
-        width: 98%;
+        width: 90%;
     }
     .right p{
-        width: 98%;
+        width: 90%;
         
     }
     .code{
-        width: 98%;
+        width: 90%;
         font-size:1.5rem ;
 
     }
     .btns{
-        width: 98%;
+        width: 90%;
     }
     .right ul{
         
@@ -184,12 +186,12 @@
 }
 @media only screen and(max-width:600px){
     .right h1{
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
     .right h2{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
    .right h3{
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 }
